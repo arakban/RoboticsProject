@@ -7,7 +7,7 @@ Getting set up:
 4) To commit changes press ctrl + k, and use the commit option
 5) Commit changes to your own branches of the code, then submit a pull request to the master branch.
 
-Sacha, Baptiste and Phillip can approve pull requests, this may be changed later on in the project.
+Sacha, Baptiste and Philip can approve pull requests, this may be changed later on in the project.
 
 Remember to:
 
