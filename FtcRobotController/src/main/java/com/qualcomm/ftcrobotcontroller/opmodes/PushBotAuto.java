@@ -16,7 +16,7 @@ public class PushBotAuto extends PushBotTelemetry
 {
     //--------------------------------------------------------------------------
     //
-    // This is a test comment for uploading from android studio
+    // This is a test comment for uploading from android studio!
     // v_state
     //
     //--------
