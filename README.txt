@@ -8,7 +8,7 @@ Clone github.com/illusional/roboticsproject
 Make sure to give descriptions and summaries of your commit changes
 Sacha, Baptiste and Phillip can approve pull requests, this may be changed later on in the project
 Mark is a wanker
-If you need any help with repository, send a message to Sacha
+If you need any help with using repositories, send a message to Sacha
 
 You can set up the repository to work directly with Android Studio
 To do this set up your android studio with your github account
