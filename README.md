@@ -5,7 +5,7 @@ Getting set up:
 
 2) Set up Android Studio to work with Github (Press on VHS on menu bar)
 
-3) Work on a BRANCH. This part is crucial.
+3) Work on a BRANCH. This part is crucial.Yeah im doing it
 
 4) To commit changes press ctrl + k, and use the commit option
 
