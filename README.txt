@@ -1,21 +1,39 @@
-This will be the home repository for the code used on the robotics project.
+# ftc_app
+FTC Android Studio project to create FTC Robot Controller app.
 
-Getting set up:
-1) Clone github.com/illusional/roboticsproject
-2) Set up Android Studio to work with Github (Press on VHS on menu bar)
-3) Work on a BRANCH. This part is crucial.
-4) To commit changes press ctrl + k, and use the commit option
-5) Commit changes to your own branches of the code, then submit a pull request to the master branch.
+This is the FTC SDK that can be used to create an FTC Robot Controller app, with custom op modes.
+The FTC Robot Controller app is designed to work in conjunction with the FTC Driver Station app.
+The FTC Driver Station app is available through Google Play.
 
-Sacha, Baptiste and Philip can approve pull requests, this may be changed later on in the project.
+To use this SDK, download/clone the entire project to your local computer.
+Use Android Studio to import the folder  ("Import project (Eclipse ADT, Gradle, etc.)").
 
-Remember to:
+Documentation for the FTC SDK are included with this repository.  There is a subfolder called "doc" which contains several subfolders:
 
-1) Give a summary and description to all changes that you push.
-2) Add comments for the code that you write
+ * The folder "apk" contains the .apk files for the FTC Driver Station and FTC Robot Controller apps.
+ * The folder "javadoc" contains the JavaDoc user documentation for the FTC SDK.
+ * The folder "tutorial" contains PDF files that help teach the basics of using the FTC SDK.
 
-Coding Conventions:
-1) Use camel case for variable and method names (writeItLikeThis)
-2) Use the following convention for motor names [insert naming scheme later]
+For technical questions regarding the SDK, please visit the FTC Technology forum:
 
-Post on the #programming channel if you need any help.
+  http://ftcforum.usfirst.org/forumdisplay.php?156-FTC-Technology
+
+In this latest version of the FTC SDK (20150803_001) the following changes should be noted:
+
+ * New user interfaces for FTC Driver Station and FTC Robot Controller apps.
+ * An init() method is added to the OpMode class.
+   - For this release, init() is triggered right before the start() method.
+   - Eventually, the init() method will be triggered when the user presses an "INIT" button on driver station.
+   - The init() and loop() methods are now required (i.e., need to be overridden in the user's op mode).
+   - The start() and stop() methods are optional.
+ * A new LinearOpMode class is introduced.
+   - Teams can use the LinearOpMode mode to create a linear (not event driven) program model.
+   - Teams can use blocking statements like Thread.sleep() within a linear op mode.
+ * The API for the Legacy Module and Core Device Interface Module have been updated.
+   - Support for encoders with the Legacy Module is now working.
+ * The hardware loop has been updated for better performance.
+
+
+T. Eng
+August 3, 2015
+
