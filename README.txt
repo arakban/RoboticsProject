@@ -33,7 +33,7 @@ In this latest version of the FTC SDK (20150803_001) the following changes shoul
    - Support for encoders with the Legacy Module is now working.
  * The hardware loop has been updated for better performance.
 
-Arka has edited this too.
+Arka has edited this too again.
 
 T. Eng
 August 3, 2015
